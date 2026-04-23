@@ -20,9 +20,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 right-0 left-0 w-full bg-[#0f281b] border-b border-gray-200 z-50">
-      <div className="absolute bottom-0 left-0 w-full h-0.75 bg-linear-to-r from-[#07522e] via-[#07522e] to-[#c9a84c]" />
-
+    <nav className="fixed top-0 right-0 left-0 w-full bg-[#0f281b] border-b border-[#c9a84c] z-50">
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-18">
         <Link href="/" className="flex items-center gap-3">
           <Image
@@ -69,7 +67,7 @@ const Navbar = () => {
       {isOpen && (
         <div
           className="md:hidden absolute top-full left-0 w-full bg-[#0f281b]
-          shadow-lg border-t border-gray-100 flex flex-col items-center
+          shadow-lg border-t border-[#c9a84c] flex flex-col items-center
           gap-1 py-4 animate-in fade-in slide-in-from-top-2 duration-500"
         >
           {navLinks.map((link) => (
