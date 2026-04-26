@@ -66,17 +66,10 @@ const forums = [
   },
   {
     icon: <FaMosque className="text-[#c9a84c]" />,
-    name: "New to the Sunnah",
-    desc: "A safe, welcoming space for those new to Salafiyyah. Ask basic questions without fear of judgment.",
+    name: "Newbies",
+    desc: "A safe, welcoming space for those new to islam or Sunnah. Ask basic questions without fear of discrimination.",
     members: "876 members",
     online: "41 online now",
-  },
-  {
-    icon: <FaKaaba className="text-[#c9a84c]" />,
-    name: "Daily Benefits",
-    desc: "Share short beneficial reminders, ayāt, and ahādīth. No debates. Just spreading good.",
-    members: "2,100 members",
-    online: "156 online now",
   },
   {
     icon: <FaMosque className="text-[#c9a84c]" />,
@@ -84,6 +77,13 @@ const forums = [
     desc: "For Muslims in Nigeria, Ghana, and across West Africa. Local scholars, local events, local community.",
     members: "634 members",
     online: "29 online now",
+  },
+  {
+    icon: <FaKaaba className="text-[#c9a84c]" />,
+    name: "Daily Benefits",
+    desc: "Share short beneficial reminders, ayāt, and ahādīth. No debates. Just spreading good.",
+    members: "2,100 members",
+    online: "156 online now",
   },
 ];
 
